@@ -1,0 +1,281 @@
+{
+  "id": "a2488de22cd5641af11406327e459e11",
+  "_format": "hh-sol-build-info-1",
+  "solcVersion": "0.6.6",
+  "solcLongVersion": "0.6.6+commit.6c089d02",
+  "input": {
+    "language": "Solidity",
+    "sources": {
+      "contracts/interfaces/IPancakeCallee.sol": {
+        "content": "pragma solidity >=0.5.0;\n\ninterface IPancakeCallee {\n    function pancakeCall(address sender, uint amount0, uint amount1, bytes calldata data) external;\n}\n"
+      }
+    },
+    "settings": {
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "outputSelection": {
+        "*": {
+          "*": [
+            "abi",
+            "evm.bytecode",
+            "evm.deployedBytecode",
+            "evm.methodIdentifiers",
+            "metadata"
+          ],
+          "": [
+            "ast"
+          ]
+        }
+      }
+    }
+  },
+  "output": {
+    "contracts": {
+      "contracts/interfaces/IPancakeCallee.sol": {
+        "IPancakeCallee": {
+          "abi": [
+            {
+              "inputs": [
+                {
+                  "internalType": "address",
+                  "name": "sender",
+                  "type": "address"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "amount0",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "amount1",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "bytes",
+                  "name": "data",
+                  "type": "bytes"
+                }
+              ],
+              "name": "pancakeCall",
+              "outputs": [],
+              "stateMutability": "nonpayable",
+              "type": "function"
+            }
+          ],
+          "evm": {
+            "bytecode": {
+              "linkReferences": {},
+              "object": "",
+              "opcodes": "",
+              "sourceMap": ""
+            },
+            "deployedBytecode": {
+              "immutableReferences": {},
+              "linkReferences": {},
+              "object": "",
+              "opcodes": "",
+              "sourceMap": ""
+            },
+            "methodIdentifiers": {
+              "pancakeCall(address,uint256,uint256,bytes)": "84800812"
+            }
+          },
+          "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount0\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount1\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"pancakeCall\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"contracts/interfaces/IPancakeCallee.sol\":\"IPancakeCallee\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/interfaces/IPancakeCallee.sol\":{\"keccak256\":\"0xf4099e1dc40e09405ab439ba78dbd1ee3bd6eaf8042bdf26d7fd66b282c33afc\",\"urls\":[\"bzz-raw://d0a8f145a0cf1681a4b18d9615f4c3339ef61220e0084f3e53648dce7a9ac3dc\",\"dweb:/ipfs/QmaBioBxCipyUgqLJxhxx5dseN36Zwt1jCuRjN7jiaiBHz\"]}},\"version\":1}"
+        }
+      }
+    },
+    "sources": {
+      "contracts/interfaces/IPancakeCallee.sol": {
+        "ast": {
+          "absolutePath": "contracts/interfaces/IPancakeCallee.sol",
+          "exportedSymbols": {
+            "IPancakeCallee": [
+              13
+            ]
+          },
+          "id": 14,
+          "nodeType": "SourceUnit",
+          "nodes": [
+            {
+              "id": 1,
+              "literals": [
+                "solidity",
+                ">=",
+                "0.5",
+                ".0"
+              ],
+              "nodeType": "PragmaDirective",
+              "src": "0:24:0"
+            },
+            {
+              "abstract": false,
+              "baseContracts": [],
+              "contractDependencies": [],
+              "contractKind": "interface",
+              "documentation": null,
+              "fullyImplemented": false,
+              "id": 13,
+              "linearizedBaseContracts": [
+                13
+              ],
+              "name": "IPancakeCallee",
+              "nodeType": "ContractDefinition",
+              "nodes": [
+                {
+                  "body": null,
+                  "documentation": null,
+                  "functionSelector": "84800812",
+                  "id": 12,
+                  "implemented": false,
+                  "kind": "function",
+                  "modifiers": [],
+                  "name": "pancakeCall",
+                  "nodeType": "FunctionDefinition",
+                  "overrides": null,
+                  "parameters": {
+                    "id": 10,
+                    "nodeType": "ParameterList",
+                    "parameters": [
+                      {
+                        "constant": false,
+                        "id": 3,
+                        "mutability": "mutable",
+                        "name": "sender",
+                        "nodeType": "VariableDeclaration",
+                        "overrides": null,
+                        "scope": 12,
+                        "src": "78:14:0",
+                        "stateVariable": false,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        "typeName": {
+                          "id": 2,
+                          "name": "address",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "78:7:0",
+                          "stateMutability": "nonpayable",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "value": null,
+                        "visibility": "internal"
+                      },
+                      {
+                        "constant": false,
+                        "id": 5,
+                        "mutability": "mutable",
+                        "name": "amount0",
+                        "nodeType": "VariableDeclaration",
+                        "overrides": null,
+                        "scope": 12,
+                        "src": "94:12:0",
+                        "stateVariable": false,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "typeName": {
+                          "id": 4,
+                          "name": "uint",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "94:4:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "value": null,
+                        "visibility": "internal"
+                      },
+                      {
+                        "constant": false,
+                        "id": 7,
+                        "mutability": "mutable",
+                        "name": "amount1",
+                        "nodeType": "VariableDeclaration",
+                        "overrides": null,
+                        "scope": 12,
+                        "src": "108:12:0",
+                        "stateVariable": false,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "typeName": {
+                          "id": 6,
+                          "name": "uint",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "108:4:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "value": null,
+                        "visibility": "internal"
+                      },
+                      {
+                        "constant": false,
+                        "id": 9,
+                        "mutability": "mutable",
+                        "name": "data",
+                        "nodeType": "VariableDeclaration",
+                        "overrides": null,
+                        "scope": 12,
+                        "src": "122:19:0",
+                        "stateVariable": false,
+                        "storageLocation": "calldata",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes_calldata_ptr",
+                          "typeString": "bytes"
+                        },
+                        "typeName": {
+                          "id": 8,
+                          "name": "bytes",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "122:5:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bytes_storage_ptr",
+                            "typeString": "bytes"
+                          }
+                        },
+                        "value": null,
+                        "visibility": "internal"
+                      }
+                    ],
+                    "src": "77:65:0"
+                  },
+                  "returnParameters": {
+                    "id": 11,
+                    "nodeType": "ParameterList",
+                    "parameters": [],
+                    "src": "151:0:0"
+                  },
+                  "scope": 13,
+                  "src": "57:95:0",
+                  "stateMutability": "nonpayable",
+                  "virtual": false,
+                  "visibility": "external"
+                }
+              ],
+              "scope": 14,
+              "src": "26:128:0"
+            }
+          ],
+          "src": "0:155:0"
+        },
+        "id": 0
+      }
+    }
+  }
+}

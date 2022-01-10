@@ -1,0 +1,1096 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/xiaonahe/Desktop/pancakeswap-local-test/pancake-swap-core/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1639098608787,
+      "contentHash": "3d2b948a9266ee66b6e739de97c7e6e9",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/pancakeswap-local-test/pancake-swap-core/contracts/PancakePair.sol": {
+      "lastModificationDate": 1639098608787,
+      "contentHash": "30a9b1e3f7b2fd1de16d44c40fcb0100",
+      "sourceName": "contracts/PancakePair.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IPancakePair.sol",
+        "./PancakeERC20.sol",
+        "./libraries/Math.sol",
+        "./libraries/UQ112x112.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IPancakeFactory.sol",
+        "./interfaces/IPancakeCallee.sol"
+      ],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "PancakePair"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/pancakeswap-local-test/pancake-swap-core/contracts/interfaces/IPancakePair.sol": {
+      "lastModificationDate": 1639098608787,
+      "contentHash": "9e4cd97338e60177d23a4cc784d24c3e",
+      "sourceName": "contracts/interfaces/IPancakePair.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IPancakePair"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/pancakeswap-local-test/pancake-swap-core/contracts/PancakeERC20.sol": {
+      "lastModificationDate": 1639098608786,
+      "contentHash": "2747a36217843195259c4a5b73e692bb",
+      "sourceName": "contracts/PancakeERC20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IPancakeERC20.sol",
+        "./libraries/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "PancakeERC20"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/pancakeswap-local-test/pancake-swap-core/contracts/libraries/Math.sol": {
+      "lastModificationDate": 1639098608787,
+      "contentHash": "bee6c1959728d5d42c14151076cebd83",
+      "sourceName": "contracts/libraries/Math.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/pancakeswap-local-test/pancake-swap-core/contracts/libraries/UQ112x112.sol": {
+      "lastModificationDate": 1639098608787,
+      "contentHash": "2a703244e9f645c6fb297a983ce7c9c4",
+      "sourceName": "contracts/libraries/UQ112x112.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "UQ112x112"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/pancakeswap-local-test/pancake-swap-core/contracts/interfaces/IPancakeFactory.sol": {
+      "lastModificationDate": 1639098608787,
+      "contentHash": "21a09f1df5792450572a8a1a8da5fa7d",
+      "sourceName": "contracts/interfaces/IPancakeFactory.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IPancakeFactory"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/pancakeswap-local-test/pancake-swap-core/contracts/interfaces/IPancakeCallee.sol": {
+      "lastModificationDate": 1639098608787,
+      "contentHash": "d110e8ea54e84297d7a980b1a218f5ce",
+      "sourceName": "contracts/interfaces/IPancakeCallee.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IPancakeCallee"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/pancakeswap-local-test/pancake-swap-core/contracts/interfaces/IPancakeERC20.sol": {
+      "lastModificationDate": 1639098608787,
+      "contentHash": "cffdf5dbe4b564dbdf64fa62968083b5",
+      "sourceName": "contracts/interfaces/IPancakeERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IPancakeERC20"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/pancakeswap-local-test/pancake-swap-core/contracts/libraries/SafeMath.sol": {
+      "lastModificationDate": 1639098608787,
+      "contentHash": "a65356c329efeffba75210664f5df3cd",
+      "sourceName": "contracts/libraries/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/pancakeswap-local-test/pancake-swap-core/contracts/PancakeFactory.sol": {
+      "lastModificationDate": 1639098608786,
+      "contentHash": "1a278eb235ccd670b0060fc65a913fae",
+      "sourceName": "contracts/PancakeFactory.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IPancakeFactory.sol",
+        "./PancakePair.sol"
+      ],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "PancakeFactory"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/pancakeswap-local-test/pancake-swap-core/contracts/test/ERC20.sol": {
+      "lastModificationDate": 1639098608788,
+      "contentHash": "28b13ee59f8440e280b1a54f221a43ce",
+      "sourceName": "contracts/test/ERC20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../PancakeERC20.sol"
+      ],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/pancakeswap-local-test/pancake-swap-core/contracts/Migration.sol": {
+      "lastModificationDate": 1639098608786,
+      "contentHash": "6f3dc9936ec2cff1666c76993e7d6531",
+      "sourceName": "contracts/Migration.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.25 <0.7.0"
+      ],
+      "artifacts": [
+        "Migrations"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/pancake-swap-core/contracts/PancakePair.sol": {
+      "lastModificationDate": 1640914141572,
+      "contentHash": "30a9b1e3f7b2fd1de16d44c40fcb0100",
+      "sourceName": "contracts/PancakePair.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IPancakePair.sol",
+        "./PancakeERC20.sol",
+        "./libraries/Math.sol",
+        "./libraries/UQ112x112.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IPancakeFactory.sol",
+        "./interfaces/IPancakeCallee.sol"
+      ],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "PancakePair"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/pancake-swap-core/contracts/PancakeERC20.sol": {
+      "lastModificationDate": 1640914141572,
+      "contentHash": "2747a36217843195259c4a5b73e692bb",
+      "sourceName": "contracts/PancakeERC20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IPancakeERC20.sol",
+        "./libraries/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "PancakeERC20"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/pancake-swap-core/contracts/libraries/Math.sol": {
+      "lastModificationDate": 1640914141572,
+      "contentHash": "bee6c1959728d5d42c14151076cebd83",
+      "sourceName": "contracts/libraries/Math.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/pancake-swap-core/contracts/libraries/UQ112x112.sol": {
+      "lastModificationDate": 1640914141572,
+      "contentHash": "2a703244e9f645c6fb297a983ce7c9c4",
+      "sourceName": "contracts/libraries/UQ112x112.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "UQ112x112"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/pancake-swap-core/contracts/libraries/SafeMath.sol": {
+      "lastModificationDate": 1640914141572,
+      "contentHash": "a65356c329efeffba75210664f5df3cd",
+      "sourceName": "contracts/libraries/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/pancake-swap-core/contracts/PancakeFactory.sol": {
+      "lastModificationDate": 1640914141572,
+      "contentHash": "1a278eb235ccd670b0060fc65a913fae",
+      "sourceName": "contracts/PancakeFactory.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IPancakeFactory.sol",
+        "./PancakePair.sol"
+      ],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "PancakeFactory"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/pancake-swap-core/contracts/test/ERC20.sol": {
+      "lastModificationDate": 1640914141572,
+      "contentHash": "28b13ee59f8440e280b1a54f221a43ce",
+      "sourceName": "contracts/test/ERC20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../PancakeERC20.sol"
+      ],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/pancake-swap-core/contracts/ClaimBackCake.sol": {
+      "lastModificationDate": 1640914267960,
+      "contentHash": "a312629fee60305f7c59746eb2fdf230",
+      "sourceName": "contracts/ClaimBackCake.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.4.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.2 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.2 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        "^0.6.0",
+        "^0.6.0",
+        "^0.6.12",
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "AccessControl",
+        "Address",
+        "AnniversaryAchievement",
+        "ClaimBackCake",
+        "Context",
+        "Counters",
+        "ERC721Holder",
+        "EnumerableSet",
+        "IBEP20",
+        "IERC165",
+        "IERC721",
+        "IERC721Receiver",
+        "Ownable",
+        "PancakeProfile",
+        "SafeBEP20",
+        "SafeMath"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/pancake-swap-core/contracts/MasterChef.sol": {
+      "lastModificationDate": 1640914267960,
+      "contentHash": "8d7dcfe98e37b138b27bdf07845a8d01",
+      "sourceName": "contracts/MasterChef.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Address",
+        "BEP20",
+        "CakeToken",
+        "Context",
+        "IBEP20",
+        "IMigratorChef",
+        "MasterChef",
+        "Ownable",
+        "SafeBEP20",
+        "SafeMath",
+        "SyrupBar"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/pancake-swap-core/contracts/Migration.sol": {
+      "lastModificationDate": 1640914141572,
+      "contentHash": "6f3dc9936ec2cff1666c76993e7d6531",
+      "sourceName": "contracts/Migration.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.25 <0.7.0"
+      ],
+      "artifacts": [
+        "Migrations"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/pancake-swap-core/contracts/SousChef.sol": {
+      "lastModificationDate": 1640914267960,
+      "contentHash": "5b04ced9cb2a684f0d4be6f28f989cc4",
+      "sourceName": "contracts/SousChef.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Address",
+        "IBEP20",
+        "SafeBEP20",
+        "SafeMath",
+        "SousChef"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/pancake-swap-core/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1640914141572,
+      "contentHash": "3d2b948a9266ee66b6e739de97c7e6e9",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/pancake-swap-core/contracts/interfaces/IPancakeCallee.sol": {
+      "lastModificationDate": 1640914141572,
+      "contentHash": "d110e8ea54e84297d7a980b1a218f5ce",
+      "sourceName": "contracts/interfaces/IPancakeCallee.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IPancakeCallee"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/pancake-swap-core/contracts/interfaces/IPancakeFactory.sol": {
+      "lastModificationDate": 1640914141572,
+      "contentHash": "21a09f1df5792450572a8a1a8da5fa7d",
+      "sourceName": "contracts/interfaces/IPancakeFactory.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IPancakeFactory"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/pancake-swap-core/contracts/interfaces/IPancakeERC20.sol": {
+      "lastModificationDate": 1640914141572,
+      "contentHash": "cffdf5dbe4b564dbdf64fa62968083b5",
+      "sourceName": "contracts/interfaces/IPancakeERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IPancakeERC20"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/pancake-swap-core/contracts/interfaces/IPancakePair.sol": {
+      "lastModificationDate": 1640914141572,
+      "contentHash": "9e4cd97338e60177d23a4cc784d24c3e",
+      "sourceName": "contracts/interfaces/IPancakePair.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IPancakePair"
+      ]
+    }
+  }
+}

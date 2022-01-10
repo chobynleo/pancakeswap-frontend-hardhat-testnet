@@ -1,0 +1,1 @@
+module.exports = require('../impls/is-string/is-string.js').isString;

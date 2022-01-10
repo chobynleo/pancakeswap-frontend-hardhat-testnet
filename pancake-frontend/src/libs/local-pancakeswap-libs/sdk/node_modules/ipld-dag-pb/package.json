@@ -1,0 +1,83 @@
+{
+  "name": "ipld-dag-pb",
+  "version": "0.20.0",
+  "description": "JavaScript Implementation of the MerkleDAG Node in Protobuf.",
+  "leadMaintainer": "Volker Mische <volker.mische@gmail.com>",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "aegir test",
+    "test:browser": "aegir test --target browser",
+    "test:node": "aegir test --target node",
+    "lint": "aegir lint",
+    "lint-commits": "aegir commitlint",
+    "release": "aegir release",
+    "release-minor": "aegir release --type minor",
+    "release-major": "aegir release --type major",
+    "build": "aegir build",
+    "coverage": "aegir coverage",
+    "coverage-publish": "aegir coverage publish"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "pre-push": [
+    "lint-commits",
+    "lint",
+    "test"
+  ],
+  "contributors": [
+    "David Dias <daviddias.p@gmail.com>",
+    "Volker Mische <volker.mische@gmail.com>",
+    "Vijayee Kulkaa <vijayee.kulkaa@hushmail.com>",
+    "achingbrain <alex@achingbrain.net>",
+    "Friedel Ziegelmayer <dignifiedquire@gmail.com>",
+    "nginnever <ginneversource@gmail.com>",
+    "Irakli Gozalishvili <contact@gozala.io>",
+    "Hugo Dias <hugomrdias@gmail.com>",
+    "Richard Schneider <makaretu@gmail.com>",
+    "Diogo Silva <fsdiogo@gmail.com>",
+    "Stephen Whitmore <stephen.whitmore@gmail.com>",
+    "Richard Littauer <richard.littauer@gmail.com>",
+    "James Halliday <mail@substack.net>",
+    "Matteo Collina <hello@matteocollina.com>",
+    "Mitar <mitar.github@tnode.com>",
+    "Chris Joel <cdata@google.com>",
+    "Alan Shaw <alan@tableflip.io>",
+    "Oli Evans <oli@tableflip.io>",
+    "Rod Vagg <rod@vagg.org>",
+    "Ryan Bell <ryan@piing.net>",
+    "Stanisław Drozd <drozdziak1@gmail.com>",
+    "Yahya <ya7yaz@gmail.com>",
+    "dmitriy ryajov <dryajov@dmitriys-MacBook-Pro.local>",
+    "dryajov <dryajov@gmail.com>",
+    "haad <haad@headbanggames.com>",
+    "popmanhe <neo_temp@hotmail.com>",
+    "ᴠɪᴄᴛᴏʀ ʙᴊᴇʟᴋʜᴏʟᴍ <victorbjelkholm@gmail.com>"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ipld/js-ipld-dag-pb.git"
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.0.0"
+  },
+  "dependencies": {
+    "cids": "^1.0.0",
+    "class-is": "^1.1.0",
+    "multicodec": "^2.0.0",
+    "multihashing-async": "^2.0.0",
+    "protons": "^2.0.0",
+    "reset": "^0.1.0",
+    "run": "^1.4.0",
+    "stable": "^0.1.8",
+    "uint8arrays": "^1.0.0"
+  },
+  "devDependencies": {
+    "aegir": "^25.0.0",
+    "multibase": "^3.0.0",
+    "multihashes": "^3.0.0"
+  }
+}

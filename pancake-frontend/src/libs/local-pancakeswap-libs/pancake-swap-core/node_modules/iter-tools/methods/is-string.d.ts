@@ -1,0 +1,1 @@
+export { isString as default } from '../impls/is-string/is-string';

@@ -1,0 +1,1 @@
+module.exports = require('../impls/not-string/not-string.js').notString;

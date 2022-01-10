@@ -1,0 +1,1 @@
+module.exports = require('../impls/is-array/is-array.js').isArray;

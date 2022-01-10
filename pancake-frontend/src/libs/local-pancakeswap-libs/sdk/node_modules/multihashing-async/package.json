@@ -1,0 +1,89 @@
+{
+  "name": "multihashing-async",
+  "version": "2.1.4",
+  "description": "multiple hash functions",
+  "keywords": [
+    "multihash",
+    "hash",
+    "hashing",
+    "async"
+  ],
+  "homepage": "https://github.com/multiformats/js-multihashing-async",
+  "bugs": "https://github.com/multiformats/js-multihashing-async/issues",
+  "license": "MIT",
+  "leadMaintainer": "Hugo Dias <hugomrdias@gmail.com>",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "main": "src/index.js",
+  "browser": {
+    "./src/sha.js": "./src/sha.browser.js"
+  },
+  "types": "dist/src/index.d.ts",
+  "repository": "github:multiformats/js-multihashing-async",
+  "scripts": {
+    "test": "aegir test",
+    "test:browser": "aegir test -t browser",
+    "test:node": "aegir test -t node",
+    "lint": "aegir lint",
+    "check": "aegir ts -p check",
+    "prepare": "aegir build --no-bundle",
+    "docs": "aegir docs",
+    "release": "aegir release",
+    "release-minor": "aegir release --type minor",
+    "release-major": "aegir release --type major",
+    "build": "aegir build",
+    "bench": "node benchmarks/hash.js"
+  },
+  "dependencies": {
+    "blakejs": "^1.1.0",
+    "err-code": "^3.0.0",
+    "js-sha3": "^0.8.0",
+    "multihashes": "^4.0.1",
+    "murmurhash3js-revisited": "^3.0.0",
+    "uint8arrays": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/sinon": "^9.0.10",
+    "aegir": "^31.0.1",
+    "benchmark": "^2.1.4",
+    "sinon": "^9.0.2",
+    "util": "^0.12.3"
+  },
+  "eslintConfig": {
+    "extends": "ipfs"
+  },
+  "aegir": {
+    "build": {
+      "bundlesizeMax": "20kB"
+    }
+  },
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.0.0"
+  },
+  "contributors": [
+    "David Dias <daviddias.p@gmail.com>",
+    "Hugo Dias <hugomrdias@gmail.com>",
+    "Friedel Ziegelmayer <dignifiedquire@gmail.com>",
+    "achingbrain <alex@achingbrain.net>",
+    "Juan Batiz-Benet <juan@benet.ai>",
+    "Richard Littauer <richard.littauer@gmail.com>",
+    "Harlan T Wood <harlantwood@users.noreply.github.com>",
+    "Pedro Teixeira <i@pgte.me>",
+    "Irakli Gozalishvili <contact@gozala.io>",
+    "Victor Bjelkholm <victorbjelkholm@gmail.com>",
+    "Volker Mische <volker.mische@gmail.com>",
+    "André Cruz <andremiguelcruz@msn.com>",
+    "Arve Knudsen <arve.knudsen@gmail.com>",
+    "Dmitriy Ryajov <dryajov@gmail.com>",
+    "Jacob Heun <jacobheun@gmail.com>",
+    "Marcin Rataj <lidel@lidel.org>",
+    "Matteo Collina <matteo.collina@gmail.com>",
+    "Mikeal Rogers <mikeal.rogers@gmail.com>",
+    "Mitar <mitar.github@tnode.com>",
+    "Richard Schneider <makaretu@gmail.com>",
+    "Vasco Santos <vasco.santos@moxy.studio>"
+  ]
+}

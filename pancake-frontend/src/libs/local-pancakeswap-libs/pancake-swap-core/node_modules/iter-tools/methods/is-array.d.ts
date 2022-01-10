@@ -1,0 +1,1 @@
+export { isArray as default } from '../impls/is-array/is-array';

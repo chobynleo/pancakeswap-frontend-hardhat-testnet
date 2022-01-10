@@ -1,0 +1,1 @@
+export { notArray as default } from '../impls/not-array/not-array';

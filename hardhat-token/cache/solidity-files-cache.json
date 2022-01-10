@@ -1,0 +1,467 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/xiaonahe/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1638873022021,
+      "contentHash": "5f4c7678e2e69875dbd2ec01d3d288c1",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/xiaonahe/node_modules/@openzeppelin/contracts/utils/math/SafeMath.sol": {
+      "lastModificationDate": 1638873022024,
+      "contentHash": "dcf128fca99b7d6f0746803711fa3f39",
+      "sourceName": "@openzeppelin/contracts/utils/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/hardhat-token/contracts/WBNB.sol": {
+      "lastModificationDate": 1640914267841,
+      "contentHash": "facfe9aed00ff3ca26575bbd23234793",
+      "sourceName": "contracts/WBNB.sol",
+      "solcConfig": {
+        "version": "0.4.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.18"
+      ],
+      "artifacts": [
+        "WBNB"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/hardhat-token/contracts/WETH.sol": {
+      "lastModificationDate": 1640914267842,
+      "contentHash": "1619a89a2858e831485d1448c0e7c039",
+      "sourceName": "contracts/WETH.sol",
+      "solcConfig": {
+        "version": "0.4.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.18"
+      ],
+      "artifacts": [
+        "WETH"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/hardhat-token/contracts/BUSDToken.sol": {
+      "lastModificationDate": 1640914267840,
+      "contentHash": "ccd90b6deedb9807b03cfcecb1306c33",
+      "sourceName": "contracts/BUSDToken.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.5.16"
+      ],
+      "artifacts": [
+        "BEP20Token",
+        "Context",
+        "IBEP20",
+        "Ownable",
+        "SafeMath"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/hardhat-token/contracts/DAIToken.sol": {
+      "lastModificationDate": 1640914267841,
+      "contentHash": "ed4b075cd1a80836898579441a01365f",
+      "sourceName": "contracts/DAIToken.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.5.16"
+      ],
+      "artifacts": [
+        "BEP20DAI",
+        "Context",
+        "IBEP20",
+        "Ownable",
+        "SafeMath"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/hardhat-token/contracts/ETHToken.sol": {
+      "lastModificationDate": 1640914267841,
+      "contentHash": "4b74824ea55f9b0272e3df2c91a74e3a",
+      "sourceName": "contracts/ETHToken.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.5.16"
+      ],
+      "artifacts": [
+        "BEP20Ethereum",
+        "Context",
+        "IBEP20",
+        "Ownable",
+        "SafeMath"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/hardhat-token/contracts/USDTToken.sol": {
+      "lastModificationDate": 1640914267841,
+      "contentHash": "e64e7c55d19aa0c9b749869b7a55d605",
+      "sourceName": "contracts/USDTToken.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.5.16"
+      ],
+      "artifacts": [
+        "BEP20USDT",
+        "Context",
+        "IBEP20",
+        "Ownable",
+        "SafeMath"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/hardhat-token/contracts/XRPToken.sol": {
+      "lastModificationDate": 1640914267842,
+      "contentHash": "a65c894d4869b476942c8a49ca15a5f5",
+      "sourceName": "contracts/XRPToken.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.5.16"
+      ],
+      "artifacts": [
+        "BEP20XRP",
+        "Context",
+        "IBEP20",
+        "Ownable",
+        "SafeMath"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/hardhat-token/contracts/BAKEToken.sol": {
+      "lastModificationDate": 1640914267840,
+      "contentHash": "6411f285809d3caf6aae18c045c9cf53",
+      "sourceName": "contracts/BAKEToken.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.6"
+      ],
+      "artifacts": [
+        "Address",
+        "BEP20",
+        "BakeryToken",
+        "Context",
+        "IBEP20",
+        "Ownable",
+        "SafeMath"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/hardhat-token/contracts/MULTICALL.sol": {
+      "lastModificationDate": 1640914267841,
+      "contentHash": "56d1e9e901ee0a77aa09431b33b197f8",
+      "sourceName": "contracts/MULTICALL.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "Multicall2"
+      ]
+    },
+    "/Users/xiaonahe/Desktop/test/pancake/hardhat-token/contracts/PancakeSwapLottery.sol": {
+      "lastModificationDate": 1640914267841,
+      "contentHash": "01c7c6ac822411023695594f863a0e09",
+      "sourceName": "contracts/PancakeSwapLottery.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.4",
+        "^0.8.4",
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Address",
+        "Context",
+        "IERC20",
+        "IPancakeSwapLottery",
+        "IRandomNumberGenerator",
+        "Ownable",
+        "PancakeSwapLottery",
+        "ReentrancyGuard",
+        "SafeERC20"
+      ]
+    }
+  }
+}

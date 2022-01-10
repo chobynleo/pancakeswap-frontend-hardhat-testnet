@@ -1,0 +1,1 @@
+export { notString as default } from '../impls/not-string/not-string.js';

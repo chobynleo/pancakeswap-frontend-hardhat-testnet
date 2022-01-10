@@ -1,0 +1,1 @@
+module.exports = require('../impls/not-array/not-array.js').notArray;

@@ -1,0 +1,62 @@
+{
+  "name": "PancakeSwap Default List",
+  "timestamp": "2021-05-06T00:00:00Z",
+  "version": {
+    "major": 3,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://pancakeswap.finance/logo.png",
+  "keywords": ["pancake", "default"],
+  "tokens": [
+    {
+      "name": "WBNB Token",
+      "symbol": "WBNB",
+      "address": "0xa6fA98A9A2496b8726897ea539344cea9890915f",
+      "chainId": 31337,
+      "decimals": 18,
+      "logoURI": "https://pancakeswap.finance/images/tokens/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png"
+    },
+    {
+      "name": "BUSD Token",
+      "symbol": "BUSD",
+      "address": "0xBc8f87CA68de19edED1c96f2789A4967F9e78E65",
+      "chainId": 31337,
+      "decimals": 18,
+      "logoURI": "https://pancakeswap.finance/images/tokens/0xe9e7cea3dedca5984780bafc599bd69add087d56.png"
+    },
+    {
+      "name": "Ethereum Token",
+      "symbol": "ETH",
+      "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://pancakeswap.finance/images/tokens/0x2170ed0880ac9a755fd29b2688956bd959f933f8.png"
+    },
+    {
+      "name": "BTCB Token",
+      "symbol": "BTCB",
+      "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://pancakeswap.finance/images/tokens/0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c.png"
+    },
+    {
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "address": "0xdFE97385B11cAb514D8890C161534Acb129c03dF",
+      "chainId": 31337,
+      "decimals": 18,
+      "logoURI": "https://pancakeswap.finance/images/tokens/0x55d398326f99059ff775485246999027b3197955.png"
+    },
+    {
+      "name": "PancakeSwap Token",
+      "symbol": "CAKE",
+      "address": "0x8AAFC28174bb6c3BDc7BE92f18c2F134E876c05E",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://pancakeswap.finance/images/tokens/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82.png"
+    }
+  ]
+}
