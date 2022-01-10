@@ -1,4 +1,4 @@
-# A hardhat testnet environment base on pancake-frontend (MAC)
+# A hardhat testnet environment base on pancake-frontend  
 
 ## Node Environment  
 (recommend)    
@@ -75,7 +75,7 @@ Remember to save: `INIT_CODE_PAIR_HASH`;
 
 ### In the `pancake-frontend`directory
 
-+ `ethers.providers.StaticJsonRpcProvider(RPC_URL)` is in the `src/utils/providers.ts`，that parameter is in the file of `env.development` about `REACT_APP_NODE_PRODUCTION`;  
++ `ethers.providers.StaticJsonRpcProvider(RPC_URL)` is in the `src/utils/providers.ts`，that parameter is in the `env.development` of `REACT_APP_NODE_PRODUCTION`;  
 + `network url` is in the `PANCAKE-FRONTEND/src/config/constants/networks.ts`;  
 + `testnet tokens`configuration is in the `src/config/constants/tokens.ts`;  
 + `tokenlist` in the `src/config/constants/tokenlists/pancake-default.tokenlist.json`(In order to facilitate local access, I copied it to `public/`, you can do the same;  
