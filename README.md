@@ -79,13 +79,7 @@ Remember to save: `INIT_CODE_PAIR_HASH`;
 + `network url` is in the `PANCAKE-FRONTEND/src/config/constants/networks.ts`;  
 + `testnet tokens`configuration is in the `src/config/constants/tokens.ts`;  
 + `tokenlist` in the `src/config/constants/tokenlists/pancake-default.tokenlist.json`(In order to facilitate local access, I copied it to `public/`, you can do the same;  
-+ `PANCAKE_EXTENDED`、`PANCAKE_TOP100` is in the `src/config/constants/listt.ts`，
-`farm`、`pools`、`ifo`、`pricehelper`、`contracts` all these about `chainId` need to be modified， which are in the   
-`src/config/constants/farm.ts`  
-`src/config/constants/pools.ts`  
-`src/config/constants/ifo.ts`     
-`src/config/constants/pricehelper.ts`  
-`src/config/constants/contract.ts`     
++ `PANCAKE_EXTENDED`、`PANCAKE_TOP100` is in the `src/config/constants/lists.ts`，    
 + The configuration of the wallet connection network is in the `src/utils/wallet.ts`     
 + The configuration of `FACTORY_ADDRESS` and `INIT_CODE_HASH` are in the `node_modules/@pancakeswap/sdk/dist/constants.d.ts`;  
 + `ROUTER_ADDRESS` is in the `src/config/constants/index.ts`;
@@ -94,4 +88,10 @@ Remember to save: `INIT_CODE_PAIR_HASH`;
 + The configuration of the `farm`and `pool` are in the `src/config/constants/farms.ts`、`src/config/constants/pools.ts`;  
 + The configuration of the `priceHelperLps` are in the `src/config/constants/priceHelperLps.ts`;  
 + In the `src/state/farms/hooks.ts` about `useFarmFromPid(251)`need to be modified;    
-+ In the `src/config/index.ts` about `BASE_BSC_SCAN_URLS,BASE_URL,BASE_BSC_SCAN_URL`need to be modified.  
++ In the `src/config/index.ts` about `BASE_BSC_SCAN_URLS,BASE_URL,BASE_BSC_SCAN_URL`need to be modified;
++ `farm`、`pools`、`ifo`、`pricehelper`、`contracts` all these about `chainId` need to be modified， which are in the   
+`src/config/constants/farm.ts`  
+`src/config/constants/pools.ts`  
+`src/config/constants/ifo.ts`     
+`src/config/constants/pricehelper.ts`  
+`src/config/constants/contract.ts`   
