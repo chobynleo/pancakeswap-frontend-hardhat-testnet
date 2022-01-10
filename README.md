@@ -1,13 +1,13 @@
 # A hardhat testnet environment base on pancake-frontend (MAC)
 
 ## Node Environment  
-(recommend) 
+(recommend)    
 `nvm use 12`    
 
 ## Install
 `sh install.sh`  
 
-## Open hardhat node serve  
+## Serve  
 `sh serve.sh` 
 
 ## Deploy 
@@ -40,9 +40,9 @@ yarn install
 yarn compile  
 ```
 
-- Clone`pancake-swap-interface-v1`  
+- Clone`pancake-frontend`  
 ```
-git clone git@github.com:pancakeswap/pancake-swap-interface-v1.git  
+git clone git@github.com:pancakeswap/pancake-frontend.git  
 yarn install  
 ```
 
@@ -57,8 +57,9 @@ Please refer to [登链社区](https://learnblockchain.cn/question/2055)
 + Install `hardhat`and edit `PancakeFactory.sol`;  
 `npm install --save-dev hardhat`;  
 `npx hardhat` （choose `Create an empty hardhat.config.js`);  
-+ Deploy tab => Select `PancakeFactory` -> Fill your address as `feeToSetter` in constructor -> Deploy
-creat `scripts/deploy.js` 
++ Deploy tab => Select `PancakeFactory` -> Fill your address as `feeToSetter` in constructor -> Deploy  
+creat  
+ `scripts/deploy.js` 
 `npx hardhat run scripts/deploy.js --network dev`;  
 Remember to save: `INIT_CODE_PAIR_HASH`;  
  
@@ -67,13 +68,14 @@ Remember to save: `INIT_CODE_PAIR_HASH`;
 `npm install --save-dev hardhat`;  
 `npx hardhat` （choose `Create an empty hardhat.config.js`);  
 + In the `PancakeLibrary.sol` to find `pairFor`function，read `INIT_CODE_PAIR_HASH` -> Copy this hash without prefix `0x`;  
-+ creat`scripts/deploy.js`
++ creat  
+`scripts/deploy.js`
 `npx hardhat run scripts/deploy.js --network dev`
 (If you got an error about:`error:max code size exceeded`，set `solidity->optimizer->runs` to 200);  
 
 ### In the `pancake-frontend`directory
 
-+ `ethers.providers.StaticJsonRpcProvider(RPC_URL)` is in the `src/utils/providers.ts`，that parameter is is in the file of `env.development` about `REACT_APP_NODE_PRODUCTION`;  
++ `ethers.providers.StaticJsonRpcProvider(RPC_URL)` is in the `src/utils/providers.ts`，that parameter is in the file of `env.development` about `REACT_APP_NODE_PRODUCTION`;  
 + `network url` is in the `PANCAKE-FRONTEND/src/config/constants/networks.ts`;  
 + `testnet tokens`configuration is in the `src/config/constants/tokens.ts`;  
 + `tokenlist` in the `src/config/constants/tokenlists/pancake-default.tokenlist.json`(In order to facilitate local access, I copied it to `public/`, you can do the same;  
