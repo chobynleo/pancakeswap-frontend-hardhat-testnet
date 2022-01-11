@@ -85,7 +85,6 @@ Remember to save: `INIT_CODE_PAIR_HASH`;
 + `ROUTER_ADDRESS` is in the `src/config/constants/index.ts`;
 + `masterChef`、`lotteryV2`、`multiCall` all these `contract address` are in the `src/config/constants/contracts.ts`
 + The configuration of the `ABI` and `address` are in the `config/abi/`, `utils/addressHelpers`, the reference in `src/utils/contractHelpers.ts`,`src/hooks/useContract.ts`
-+ The configuration of the `farm`and `pool` are in the `src/config/constants/farms.ts`、`src/config/constants/pools.ts`;  
 + The configuration of the `priceHelperLps` are in the `src/config/constants/priceHelperLps.ts`;  
 + In the `src/state/farms/hooks.ts` about `useFarmFromPid(251)`need to be modified;    
 + In the `src/config/index.ts` about `BASE_BSC_SCAN_URLS,BASE_URL,BASE_BSC_SCAN_URL`need to be modified;
