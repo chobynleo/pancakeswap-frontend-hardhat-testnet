@@ -47,7 +47,7 @@ yarn install
 ```
 
 tip: If you got a compilation error about: `import @uniswap/v2-core/contracts/interfaces/IPancakePair.sol`  
-Please refer to [登链社区](https://learnblockchain.cn/question/2055)  
+Please refer to [upchain](https://learnblockchain.cn/question/2055)  
 
 ## Setup  
 - The source code for the contract address
