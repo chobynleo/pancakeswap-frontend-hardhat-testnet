@@ -21,7 +21,7 @@
 ![Image text](https://raw.githubusercontent.com/chobynleo/Img/main/pancake-swap-frontend-hardhat-testnet/WechatIMG31.png)
 ![Image text](https://raw.githubusercontent.com/chobynleo/Img/main/pancake-swap-frontend-hardhat-testnet/WechatIMG32.png)
 
-## Configuration procedure
+## Configuration
 If you want to try out the process of configuring Pancake-frontend for yourself and build your own testnet environment, 
 the following will show you which files need to be modified:  
 
