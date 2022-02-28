@@ -18,14 +18,6 @@ cd ../pancake-swap-sdk
 npm run build
 cp -r ./dist ./local-pancakeswap-libs/sdk/
 
-# 使得pancake-frontend工程中的libs与外部的sdk建立软链接 (经测试软链接的包安装不了)
-#cd ../pancake-frontend/src/libs/
-#ln -s ../../../pancake-swap-sdk/local-pancakeswap-libs/ ./
-
 # 拷贝一份sdk到pancake-frontend工程中的libs中
-cp -r ./local-pancakeswap-libs ../pancake-frontend/src/libs/
-
-# 在pancake-frontend工程中安装pancakeswap-sdk 
-cd ../pancake-frontend
-npm run add-files 
+cp -r ./local-pancakeswap-libs ../pancake-frontend/src/node_modules
 
