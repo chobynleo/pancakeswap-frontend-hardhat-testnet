@@ -81,7 +81,33 @@ Remember to save: `INIT_CODE_PAIR_HASH`;
 + `tokenlist` in the `src/config/constants/tokenlists/pancake-default.tokenlist.json`(In order to facilitate local access, I copied it to `public/`, you can do the same;  
 + `PANCAKE_EXTENDED`、`PANCAKE_TOP100` is in the `src/config/constants/lists.ts`，    
 + The configuration of the wallet connection network is in the `src/utils/wallet.ts`     
-+ The configuration of `FACTORY_ADDRESS` and `INIT_CODE_HASH` are in the `node_modules/@pancakeswap/sdk/dist/constants.d.ts`;  
++ The configuration of `FACTORY_ADDRESS_JSON` and `INIT_CODE_HASH_JSON` are in the `node_modules/local-pancakeswap-libs/sdk/dist/sdk.cjs.development.js`, 
+see `pancakeswap-frontend-hardhat-testnet/depoly.sh` => 
+`cp -r ./local-pancakeswap-libs ../pancake-frontend/node_modules`;  
+PS: 
+1. If you want to change it  
+```
+// file path
+$ pancakeswap-frontend-hardhat-testnet/pancake-swap-sdk/src/constants.ts:
+```
+you should go 
+you should set  
+`FACTORY_ADDRESS_JSON`  
+`INIT_CODE_HASH_JSON`  
+`ChainId`   
+and then  
+```
+// file path
+$ pancakeswap-frontend-hardhat-testnet/pancake-swap-sdk/:
+npm run build  
+cp -r ./local-pancakeswap-libs ../pancake-frontend/src/node_modules
+```
+2. If you want to build frontend project and deploy on your server  
+```
+// file path
+$ pancakeswap-frontend-hardhat-testnet/pancake-swap-sdk/src/constants.ts:
+```
+`FACTORY_ADDRESS_JSON` and `INIT_CODE_HASH_JSON` should be hard coded;  
 + `ROUTER_ADDRESS` is in the `src/config/constants/index.ts`;
 + `masterChef`、`lotteryV2`、`multiCall` all these `contract address` are in the `src/config/constants/contracts.ts`
 + The configuration of the `ABI` and `address` are in the `config/abi/`, `utils/addressHelpers`, the reference in `src/utils/contractHelpers.ts`,`src/hooks/useContract.ts`
