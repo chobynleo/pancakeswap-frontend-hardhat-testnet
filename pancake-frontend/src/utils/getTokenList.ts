@@ -39,7 +39,10 @@ export default async function getTokenList(
   } else {
     urls = uriToHttp(listUrl)
   }
-  // chobyn：这里我把i改成1，为了不让不访问https
+  /// @title fetch list 
+  /// @urls[0] let i = 0, means get the tokenlist through HTTPS
+  /// @urls[1] let i = 1, means get the tokenlist through HTTP
+  /// @author chobyn <chobynleo@gmail.com>
   for (let i = 1; i < urls.length; i++) {
     const url = urls[i]
     const isLast = i === urls.length - 1

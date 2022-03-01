@@ -121,6 +121,7 @@ $ pancakeswap-frontend-hardhat-testnet/pancake-swap-sdk/src/constants.ts:
 + The configuration of the `ABI` and `address` are in the `config/abi/`, `utils/addressHelpers`, the reference in `src/utils/contractHelpers.ts`,`src/hooks/useContract.ts`
 + The configuration of the `priceHelperLps` are in the `src/config/constants/priceHelperLps.ts`;  
 + In the `src/state/farms/hooks.ts` about `useFarmFromPid(251)`need to be modified;    
++ `src/utils/getTokenList.ts`about getting tokenlist, I modified into`http`to access. If you want to build project to serve, you may modify `url` into `https`to get tokenlist. Detailed see annotation that 42 line on `src/utils/getTokenList.ts`;
 + In the `src/config/index.ts` about `BASE_BSC_SCAN_URLS,BASE_URL,BASE_BSC_SCAN_URL`need to be modified;
 + In the `src/config/constants/nftsCollections/index.ts` about `address`need to be modified;
 + `farm`、`pools`、`ifo`、`pricehelper`、`contracts` all these about `chainId` need to be modified， which are in the   
