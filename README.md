@@ -116,5 +116,5 @@ npm run build
 cp -r ./local-pancakeswap-libs ../pancake-frontend/src/node_modules
 ```
 2. If you want to build frontend project and deploy on your server  
-in `pancakeswap-frontend-hardhat-testnet/pancake-swap-sdk/src/constants.ts` about
-`FACTORY_ADDRESS_JSON` and `INIT_CODE_HASH_JSON` should be hard coded; 
+`FACTORY_ADDRESS_JSON` and `INIT_CODE_HASH_JSON` should be hard coded
+in `pancakeswap-frontend-hardhat-testnet/pancake-swap-sdk/src/constants.ts`.
