@@ -122,6 +122,7 @@ $ pancakeswap-frontend-hardhat-testnet/pancake-swap-sdk/src/constants.ts:
 + The configuration of the `priceHelperLps` are in the `src/config/constants/priceHelperLps.ts`;  
 + In the `src/state/farms/hooks.ts` about `useFarmFromPid(251)`need to be modified;    
 + In the `src/config/index.ts` about `BASE_BSC_SCAN_URLS,BASE_URL,BASE_BSC_SCAN_URL`need to be modified;
++ In the `src/config/constants/nftsCollections/index.ts` about `address`need to be modified;
 + `farm`、`pools`、`ifo`、`pricehelper`、`contracts` all these about `chainId` need to be modified， which are in the   
 `src/config/constants/farm.ts`  
 `src/config/constants/pools.ts`  
