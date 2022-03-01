@@ -19,5 +19,5 @@ npm run build
 cp -r ./dist ./local-pancakeswap-libs/sdk/
 
 # 拷贝一份sdk到pancake-frontend工程中的libs中
-cp -r ./local-pancakeswap-libs ../pancake-frontend/src/node_modules
+cp -r ./local-pancakeswap-libs ../pancake-frontend/node_modules
 
