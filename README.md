@@ -17,13 +17,12 @@
 `sh start.sh`  
 
 ## Running in the serve  
-If you plan to push your local project to the server:
+If you plan to push your local project to the server:  
+Configure`src/config/index.ts`=>`BASE_URL`to address of the server
 ```
 cd pancake-frontend
 npm run build
 ```
-Configure`src/config/index.ts`=>`BASE_URL`to address of the server
-
 ## Example
 ![Image text](https://raw.githubusercontent.com/chobynleo/Img/main/pancake-swap-frontend-hardhat-testnet/WechatIMG30.png)
 ![Image text](https://raw.githubusercontent.com/chobynleo/Img/main/pancake-swap-frontend-hardhat-testnet/WechatIMG31.png)
