@@ -81,6 +81,42 @@ Remember to save: `INIT_CODE_PAIR_HASH`;
 (If you got an error about:`error:max code size exceeded`，set `solidity->optimizer->runs` to 200);  
 
 ### In the `pancake-frontend`directory
+Here are the files that need to be modified:
+```
+/.env.development 
+/.env.production
+/src/config/constants/networks.ts
+/src/config/constants/index.ts
+/src/config/constants/tokens.ts
+{
+Local testnet(e.Hardhat)：
+/src/config/constants/lists.ts
+/public/pancake-default.tokenlist.json
+Other testnet:
+/src/config/constants/lists.ts
+/src/config/constants/tokenlists/pancake-default.tokenlist.json
+}
+/src/config/constants/contracts.ts
+/scr/config/constants/farms.ts
+/src/config/constants/priceHelperLps.ts
+/src/config/constants/types.ts
+/src/config/index.ts
+/src/config/constants/nftsCollections/index.ts
+```
+And then we go to the `pancake-swap-sdk` directory, and we need to modify the file  
+`cd ../pancake-swap-sdk`  
+Modify the file:
+```
+/src/constants.ts
+```
+and run:
+```
+$ pancake-swap-sdk/
+npm run build
+cp -r ./dist ./local-pancakeswap-libs/sdk/
+cp -r ./local-pancakeswap-libs ../pancake-frontend/node_modules
+```
+
 
 + `ethers.providers.StaticJsonRpcProvider(RPC_URL)` is in the `src/utils/providers.ts`，that parameter is in the `env.development` of `REACT_APP_NODE_PRODUCTION`;  
 + `network url` is in the `PANCAKE-FRONTEND/src/config/constants/networks.ts`;  
