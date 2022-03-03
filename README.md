@@ -117,7 +117,7 @@ cp -r ./dist ./local-pancakeswap-libs/sdk/
 cp -r ./local-pancakeswap-libs ../pancake-frontend/node_modules
 ```
 
-
+The following is the specific content to be modified:  
 + `ethers.providers.StaticJsonRpcProvider(RPC_URL)` is in the `src/utils/providers.ts`，that parameter is in the `env.development` of `REACT_APP_NODE_PRODUCTION`;  
 + `network url` is in the `PANCAKE-FRONTEND/src/config/constants/networks.ts`;  
 + `testnet tokens`configuration is in the `src/config/constants/tokens.ts`;  
