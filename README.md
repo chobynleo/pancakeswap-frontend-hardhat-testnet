@@ -98,6 +98,8 @@ Other testnet:
 }
 /src/config/constants/contracts.ts
 /scr/config/constants/farms.ts
+/src/config/constants/pools.ts  
+/src/config/constants/ifo.ts  
 /src/config/constants/priceHelperLps.ts
 /src/config/constants/types.ts
 /src/config/index.ts
