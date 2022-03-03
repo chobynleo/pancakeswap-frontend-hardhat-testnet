@@ -104,7 +104,9 @@ Other testnet:
 /src/config/constants/nftsCollections/index.ts
 ```
 And then we go to the `pancake-swap-sdk` directory, and we need to modify the file  
-`cd ../pancake-swap-sdk`  
+```
+cd ../pancake-swap-sdk
+```  
 Modify the file:
 ```
 /src/constants.ts
