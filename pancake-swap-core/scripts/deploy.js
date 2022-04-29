@@ -1,5 +1,4 @@
 const { writeAddr,writeJson } = require("./artifact_log")
-const SYRUPBARJSON = require("../../deployments/31337/SyrupBar.json")
 const BUSDJSON = require("../../deployments/31337/BUSD")
 const WBNBJSON = require("../../deployments/31337/WBNB")
 
@@ -72,7 +71,7 @@ async function main() {
 
     // MasterChef
     const _MasterChef = await ethers.getContractFactory("MasterChef");
-    const MasterChef = await _MasterChef.deploy(CakeToken.address, SYRUPBARJSON.address, deployer.getAddress(), 100, 0);
+    const MasterChef = await _MasterChef.deploy(CakeToken.address, SYRUPBAR.address, deployer.getAddress(), 100, 0);
     await MasterChef.deployed();
     console.log("MasterChef address:", MasterChef.address);
     // save token address
