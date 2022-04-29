@@ -16,6 +16,12 @@
 ## Start
 `sh start.sh`  
 
+- Note: Make sure the connected wallet address on PancakeSwap Frontend Page matches your deployed address.
+- Default deployed address: `0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266`
+
+
+
+
 ## Running in the serve  
 If you plan to push your local project to the server:  
 Configure`src/config/index.ts`=>`BASE_URL`to address of the server
