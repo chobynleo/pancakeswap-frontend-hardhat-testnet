@@ -2,7 +2,6 @@
 /node_modules
 /artifacts
 /local-pancakeswap-libs
-/deployments/31337/
 
 # production  打包文件
 /build
