@@ -29,6 +29,10 @@ Configure`src/config/index.ts`=>`BASE_URL`to address of the server
 cd pancake-frontend
 npm run build
 ```
+local serve:
+```
+serve -s build -p 3000
+```
 ## Example
 ![Image text](https://raw.githubusercontent.com/chobynleo/Img/main/pancake-swap-frontend-hardhat-testnet/WechatIMG30.png)
 ![Image text](https://raw.githubusercontent.com/chobynleo/Img/main/pancake-swap-frontend-hardhat-testnet/WechatIMG31.png)
