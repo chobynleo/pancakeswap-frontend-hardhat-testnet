@@ -168,3 +168,23 @@ cp -r ./local-pancakeswap-libs ../pancake-frontend/src/node_modules
 2. If you want to build frontend project and deploy on your server  
 `FACTORY_ADDRESS_JSON` and `INIT_CODE_HASH_JSON` should be hard coded
 in `pancakeswap-frontend-hardhat-testnet/pancake-swap-sdk/src/constants.ts`.
+
+###
+## @ethersproject库说明
+transaction response: `ux` -> `0x`:
+1. fix `./libs/@ethersproject/providers/src.ts/formatter.ts`and`./libs/@ethersproject/providers/src.ts/base-provider.ts`
+2. ts -> js, in `./libs/@ethersproject/providers/src.ts/`
+```
+tsc -t es5 formatter.ts 
+tsc -t es5 base-provider.ts 
+```
+3. move js files to`./libs/@ethersproject/providers/lib`:
+```
+cp formatter.js ../lib/
+cp base-provider.js ../lib/
+```
+
+4. replace @ethersproject of pancake-frontend
+```
+cp libs/@ethersproject pancake-frontend/node_modules/
+```
