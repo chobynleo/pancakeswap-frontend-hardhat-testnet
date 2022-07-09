@@ -91,7 +91,7 @@ Remember to save: `INIT_CODE_PAIR_HASH`;
 (If you got an error about:`error:max code size exceeded`，set `solidity->optimizer->runs` to 200);  
 
 ### In the `pancake-frontend`directory
-Here are the files that need to be modified:
+All the files that need to be modified:
 ```
 /.env.development 
 /.env.production
